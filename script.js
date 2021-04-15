@@ -649,8 +649,6 @@ var utils = (() => {
           modifiers: {
             separator: _isSeparator(index) } });
   
-  
-  
         return (
           `<tr class='${className}'>
   
@@ -667,8 +665,6 @@ var utils = (() => {
                 editable,
                 error,
                 'editable-error': editable && error } });
-  
-  
   
             return (
               `\n\t
